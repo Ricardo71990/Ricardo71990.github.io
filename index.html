@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Giphy Search</title>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <div class="header-flex">
+            <h1 class="site-title">GIF Finder</h1>
+            <nav>
+                <ul class="nav-menu">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#trending">Trending</a></li>
+                    <li><a href="#search">Search</a></li>
+                    <li><a href="#about">About</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="search-section">
+            <h2 class="search-title">Search for GIFs</h2>
+            <div class="search-flex">
+                <input type="search" id="searchInput" class="search-input" placeholder="Type something fun...">
+                <button id="searchButton" class="search-button">Search</button>
+            </div>
+        </section>
+
+        <div id="loading" class="loading">
+            Loading GIFs...
+        </div>
+
+        <div id="error" class="error"></div>
+
+        <div id="results" class="gif-grid"></div>
+    </main>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
