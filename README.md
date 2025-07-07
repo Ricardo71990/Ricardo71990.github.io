@@ -1,12 +1,13 @@
-# TA-CABRON
-Taqueria website for project 1.
+# Gif Finder
+Search engine website for project 2.
 https://ricardo71990.github.io/
 
 ## Name
 Ricardo Soriano
 
 ## Overview 
-This project is the code for a search engine site for watches.
+This project is the code for a search engine to see gifs.
+
 
 ## Features
 - search bar with submit button
@@ -26,6 +27,7 @@ This project is the code for a search engine site for watches.
 
 
 ## Future Improvements 
--
--
--
+- allow favoriting of gifs
+- show suggested gifs on home page
+- implement trending page
+- write about page
